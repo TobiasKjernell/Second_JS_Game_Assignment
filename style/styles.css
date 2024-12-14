@@ -8,7 +8,6 @@
 }
 
 html {
-
     font-size: 65.5%;
     height: 100vh;
     font-family: 'Pixelify Sans';
@@ -29,7 +28,6 @@ body {
 .hangman-paint {}
 
 .correct-words {
-
     padding: 3rem;
     padding-bottom: 0;
     font-size: 7rem;
@@ -37,8 +35,6 @@ body {
 }
 
 .failed-words {
-
-    
     text-align: center;
     font-size: 3rem;
 }
@@ -178,6 +174,7 @@ body {
     transition: font-size 0.3s ease;
     width: auto;
     text-align: center;
+
     &:hover {
         color: green;
         font-size: 6rem;
@@ -261,8 +258,8 @@ body {
     font-size: 3rem;
     cursor: pointer;
 
-    &:hover{
-        color: teal;  
+    &:hover {
+        color: teal;
     }
 }
 
@@ -341,8 +338,7 @@ body {
 
 /* MEDIA Q's */
 
-@media  screen and (max-width: 768px) {
-
+@media screen and (max-width: 768px) {
     .dynamic-message {
         padding: 0 10rem;
         font-size: 2rem;
@@ -359,6 +355,7 @@ body {
     .start-game {
         font-size: 3.5rem;
         width: 30rem;
+
         &:hover {
             font-size: 4rem;
         }

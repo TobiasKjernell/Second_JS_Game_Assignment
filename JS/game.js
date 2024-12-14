@@ -259,10 +259,11 @@ $(() => {
             updateLife();
             spellInMotion = false;
 
-            if (life === 0) {
-                document.querySelector(".king").classList.remove("king-hit");
-                document.querySelector(".king").classList.add("king-death");
-                document.querySelector(".king").classList.add("kingDeath");
+            if (life === 0) { document.querySelector(".king");
+                let king =  document.querySelector(".king");
+                king.classList.remove("king-hit");
+                king.classList.add("king-death");
+                king.classList.add("kingDeath");
                 gameOver();
             }
             else {

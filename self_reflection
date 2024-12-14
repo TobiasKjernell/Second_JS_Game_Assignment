@@ -1,13 +1,14 @@
-regular expressions can solve and save time, need to use it more in some other usecases when needed. Cannot use this in Unity/UE or anything with framerate or gpu calc engines since it's too heavy for the current render/rate.
+JQeuery is messy, trainwrecks delux. very similiar to DoTween lib.
 
-still missing generic/linq from c#. 
+Making games in html/css/js is a nightmare. Might be ok in Playcanvas engine (webgl engine, www.playcanvas.com).
 
-Should make a replica/inspiration game of Hearthstone if there's not any other deadlines in same scope. (For the second js-game with css/html)
+Happy i didn't go with initial where timeboxing ended up to 4month. go small and practice.
 
-Still trying to reach some c# and also Unity functions, need to remap some thinking.
+1-2 day project is enought like this one, should make another bigger one during christmas break to practice more vanilla js, or just make a website so i don't go down in the game-rabbit-hole again.
 
-Spend some more time with regular expressions.
+Need to let the DOM breath for some milliseconds when switching between 'animate-classes' for resets and checks. 
 
-prompt and alert freezes all DOM changes, doesn't matter if you make changes above. Event chain seems to be paused until next frame.
+Have to look if JS have any kind of "out paramter" in functions to work with. Ref/in/read/out etc.
 
-the foreach on array and do ' element = 0 ' in array doesnt work. Only with for-loop. Works abit different than C#'s foreach.
+Fun to see that css-spritesheets work similiar to 2D-Unity. Maybe some skinning can be coded for rigs. 
+
