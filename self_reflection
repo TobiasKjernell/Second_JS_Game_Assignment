@@ -1,0 +1,13 @@
+regular expressions can solve and save time, need to use it more in some other usecases when needed. Cannot use this in Unity/UE or anything with framerate or gpu calc engines since it's too heavy for the current render/rate.
+
+still missing generic/linq from c#. 
+
+Should make a replica/inspiration game of Hearthstone if there's not any other deadlines in same scope. (For the second js-game with css/html)
+
+Still trying to reach some c# and also Unity functions, need to remap some thinking.
+
+Spend some more time with regular expressions.
+
+prompt and alert freezes all DOM changes, doesn't matter if you make changes above. Event chain seems to be paused until next frame.
+
+the foreach on array and do ' element = 0 ' in array doesnt work. Only with for-loop. Works abit different than C#'s foreach.

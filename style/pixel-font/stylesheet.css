@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Pixelify Sans';
+    src: url('PixelifySans-Regular.woff2') format('woff2'),
+        url('PixelifySans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixelify Sans';
+    src: url('PixelifySans-Regular.woff2') format('woff2'),
+        url('PixelifySans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixelify Sans';
+    src: url('PixelifySans-Bold.woff2') format('woff2'),
+        url('PixelifySans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixelify Sans';
+    src: url('PixelifySans-Medium.woff2') format('woff2'),
+        url('PixelifySans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixelify Sans';
+    src: url('PixelifySans-SemiBold.woff2') format('woff2'),
+        url('PixelifySans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

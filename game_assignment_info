@@ -1,0 +1,92 @@
+Assignment 5 - Responsive Web game
+
+
+
+This assignment requires building a Responsive Web game. You could consider adapting assignment 2 to include HTML and CSS.
+
+
+
+Your knowledge of the DOM and how to interact with it is being examined in this assignment. Games such as Wordle, Hangman, Memory, Tic Tac Toe and the like are perfect for this assignment, but you are free to create your own game. Having a complex working game is important, but displaying a high understanding of how the three pillars of FE development interact is more important. A (relatively) straight forward memory colour matching game is enough complexity for this assignment.
+
+
+
+You can use Vanilla JS or jQuery.
+
+
+
+The game MUST be pushed to github AND hosted on github pages or Vercel.
+
+
+
+To achieve a Godkänt grade you must include:
+
+
+
+Include semantic and separate HTML, CSS and JS files. An index.html is required for github pages
+
+
+
+Build a responsive website. Tablet portrait can be treated as a mobile device, tablet landscape can be treated as a desktop device.
+
+
+
+Loops as in assignment 2
+
+
+
+Use of functions
+
+
+
+At least one dynamic part of the page that is updated (at a minimum include a you won / you lost message)
+
+
+
+User input taken from the DOM - either as text or a click event in the case of a game like Memory. No prompts.
+
+
+
+DOM manipulation - ie inserting / updating elements (counting down how many turns are left, as an example)
+
+
+
+At least one event - (a start button that has a click event to start the game as an example)
+
+
+
+To achieve a VälGodkänt grade, in addition to the above, you must include some of the following:
+
+
+
+A Replay button that restarts the game without reloading the page. 
+
+
+
+A counter of how many times the game has been played or how many wins and losses a user has in the current session (ie data that is retained past the current game)
+
+
+
+If possible, convert the game to allow 2 players rather than playing against a computer.
+
+
+
+Use of jQuery features such as fade, slide or animations
+
+
+
+Of course every game will require different techniques, so we will chat about different requirements based on what game you decide to build.
+
+
+
+
+
+Submission:
+
+
+
+A link to the live website
+
+
+
+A link to the github repo
+

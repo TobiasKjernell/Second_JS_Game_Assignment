@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/pixel-font/stylesheet.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="JS/jquery.js"></script>
+    <script src="JS/game.js "></script>
+    <title>Second JS Game Assignment</title>
+</head>
+
+<body>
+    <div class="hangman-paint">
+        <div class="clouds background-clouds"></div>
+        <div class="start-game__container">
+            <div class="start-game">Start Game
+            </div>
+            <div class="word-theme">
+            </div>
+        </div>
+        <div class="game-objects hidden">
+            <div class="stats">
+                <div class="total-play">Losees:</div>
+                <div class="total-wins">Wins:</div>
+                <div class="total-losses">Played:</div>
+            </div>
+            <div class="first-group">
+                <img src="images/floating_ground.png" width="auto" height="auto" class="island-1">
+                <div class="wiz wizard-cast">
+                </div>
+            </div>
+            <div class="second-group">
+                <img src="images/floating_ground.png" width="auto" height="auto" class="island-2">
+                <div class="king king-hit">
+                    <div class="spell-socket"></div>
+                </div>
+                <div class="spell hidden"></div>
+            </div>
+            <div class="word-container">
+                <div class="guess-container">
+                    <input id="guess-input" type="text" placeholder="?" maxlength="1" autofocus>
+                    <div class="guess">Guess</div>
+                    <div class="heart-container"></div>
+                </div>
+                <div class="correct-words"></div>
+                <div class="failed-words"></div>
+                <div class="dynamic-message"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
