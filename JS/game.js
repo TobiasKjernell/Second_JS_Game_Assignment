@@ -59,7 +59,7 @@ $(() => {
 
     }
 
-    const createGameElements = (parentClass, buttonClass, amountOfButtons, callback = null) => {
+    const createGameElements = (parentClass, buttonClass, amountOfButtons) => {
         let parent = document.querySelector(parentClass);
         let elementArray = [];
         if (parent.children.length > 0) {
@@ -74,9 +74,7 @@ $(() => {
             parent.appendChild(createdElement);
             elementArray.push(createdElement);
         }
-        if (callback === null) return elementArray;
 
-        callback();
         return elementArray;
     }
 
@@ -109,7 +107,6 @@ $(() => {
         $('.start-game').text("Play again?");
         $('.start-game__container').fadeIn(1000);
 
-
         inputGuess_el.disabled = true;
         updateStats(0, 1, 1);
     }
@@ -138,7 +135,6 @@ $(() => {
         life--;
         allHearts[life].classList.remove("full-heart");
         allHearts[life].classList.add("empty-heart");
-        console.log(allHearts.length)
     }
 
     const guess = () => {
@@ -156,7 +152,6 @@ $(() => {
                     if (pickedWord[index] === inputLetter)
                         visualOutput[index] = inputLetter;
 
-                console.log(visualOutput.join("") + " --- " + pickedWord);
                 updateVisualOutput();
 
                 if (visualOutput.join("") === pickedWord) {
@@ -164,8 +159,6 @@ $(() => {
                 }
             }
             else {
-
-
                 if (!wrongLettersGuessed.includes(inputLetter)) {
 
                     wrongLettersGuessed.push(inputLetter);
@@ -191,11 +184,10 @@ $(() => {
     }
 
     const initSetup = () => {
-
         newGame();
         allHearts = createGameElements('.heart-container', 'full-heart', life);
         pickedWord = randomPickWord(chosenTheme);
-        console.log(pickedWord);
+       
         for (let index = 0; index < pickedWord.length; index++) {
             visualOutput.push("_");
         }
@@ -210,7 +202,6 @@ $(() => {
         $('.failed-words').fadeOut(0).delay(1000).fadeIn(2000);
         $('.heart-container').fadeOut(0).delay(500).fadeIn(1000);
         inputGuess_el.disabled = false;
-
     }
 
     const addEventsToTheme = () => {
@@ -281,7 +272,6 @@ $(() => {
     });
 
     $(".start-game").on("click", () => {
-
         if (replay) {
             $(".first-group")
                 .delay(1000)
