@@ -59,7 +59,7 @@ $(() => {
 
     }
 
-    const createGameElements = (parentClass, buttonClass, amountOfButtons) => {
+    const createGameElements = (parentClass, classToElement, amountOfElements) => {
         let parent = document.querySelector(parentClass);
         let elementArray = [];
         if (parent.children.length > 0) {
@@ -68,9 +68,9 @@ $(() => {
             }
         }
 
-        for (let index = 0; index < amountOfButtons; index++) {
+        for (let index = 0; index < amountOfElements; index++) {
             let createdElement = document.createElement("div");
-            createdElement.classList.add(buttonClass);
+            createdElement.classList.add(classToElement);
             parent.appendChild(createdElement);
             elementArray.push(createdElement);
         }
