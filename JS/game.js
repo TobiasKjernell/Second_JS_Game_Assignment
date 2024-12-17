@@ -46,7 +46,7 @@ $(() => {
     }
 
 
-    const spellAndLifeLogic = () => {
+    const spellCast = () => {
         spellInMotion = true;
         $(".wiz").removeClass("wizCast")
         $(".king").removeClass("kingHit kingDeath")
@@ -168,7 +168,7 @@ $(() => {
                 } else
                     $(dynamicMsg_el).text(`Letter ${inputLetter} is wrong and you also have guessed this letter already.`).stop(true).fadeIn(0).fadeOut(3000);
 
-                spellAndLifeLogic();
+                spellCast();
             }
 
         } else
@@ -326,11 +326,11 @@ $(() => {
         guess();
     })
 
-    //Force on Init
-    $(".word-container").hide();
-    allThemesBtn = createGameElements('.word-theme', 'theme-button', 3);
-    addEventsToTheme();
-
+    //Force on Init on load.
+        $(".word-container").hide();
+        allThemesBtn = createGameElements('.word-theme', 'theme-button', 3);
+        addEventsToTheme();
+    
 });
 
 
